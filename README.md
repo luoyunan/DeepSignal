@@ -2,7 +2,7 @@
 Deciphering signaling specificity with neural network.    
 **Warning**: this repository is under construction.
 ## Usage
-- Download pre-trained model from [here](https://drive.google.com/drive/folders/1PKHxkQ7G6Q7dSC-PZoi39BXo8gMGOjCr?usp=sharing). Put all the files in the `model` folder.
+- Download pre-trained model from [here](https://drive.google.com/drive/folders/1PKHxkQ7G6Q7dSC-PZoi39BXo8gMGOjCr?usp=sharing). Create a folder `model` and put all the model files in it.
 - Run `python run.py`
 ## Dependencies
 Please first install the following dependencies.
