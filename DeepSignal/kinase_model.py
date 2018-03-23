@@ -4,7 +4,7 @@ import torch.nn as nn
 class EncoderKinase(nn.Module):
 	def __init__(self, input_size, hidden_size, 
 				input_dropout_p=0, dropout_p=0, n_layers=1, 
-				bidirectional=True, rnn_cell='gru'):
+				bidirectional=True, rnn_cell='lstm'):
 		super(EncoderKinase, self).__init__()
 		self.input_size = input_size
 		self.hidden_size = hidden_size
